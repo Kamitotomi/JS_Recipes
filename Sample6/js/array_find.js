@@ -27,3 +27,4 @@ console.log(data.reduce(function (result, value) {
 	// body...
 	return result * value;
 }));
+

@@ -18,3 +18,6 @@ animalas.forEach(function (value) {
 console.log(result);
 
 // this指定はmap, filter, everyでも可能
+
+
+
