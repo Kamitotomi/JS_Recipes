@@ -5,3 +5,8 @@ let m = new Map([
 ]);
 
 console.log(m);
+
+let n = new Map();
+n.set('Ho', 'ホルン');
+n.set('Tu', 'チューバ');
+console.log(n.delete('Ho'));
