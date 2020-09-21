@@ -21,10 +21,28 @@ function print({price}) {
 	console.log(price)
 }
 
+function print({ title }) {
+	// body...
+	console.log(title);
+}
+
 let book = {
-	title: '一か月で中学英語を復習する本',
+	title: '独習c#',
 	price: 3600,
-	publisher: 'カサゴ出版'
+	publisher: 'ヒラメ'
 };
 
 print(book);
+
+
+function product(...nums) {
+	// body...
+	let result = 1;
+	// 可変引数の内容を順に掛け合わせる
+	for(let num of nums) {
+		result *= num;
+	}
+	return result;
+}
+
+console.log(product(3, 4, 5));
